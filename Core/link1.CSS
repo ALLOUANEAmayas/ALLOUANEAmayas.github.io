@@ -1,0 +1,14 @@
+:root{
+--variableName:red;
+--websiteBackground:rgb(155,12,177);
+}
+*{
+    margin:0;
+    padding: 0;
+    font: inherit;
+}
+
+html{
+    height: 100vh;/*viewport height*/
+    background-color: blue;
+}
