@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
+@import url('https://fonts.googleapis.com/css2?famille= Playfair+Display:wght@600 & display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    color: #717171;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+
+}
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1 px solid #000;
+    padding-bottom: 5 px ;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('Images/background-header.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+
+header h1{
+    font-family: 'Playfair Display';
+    font-size: 50px;
+
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    outline: none;
+    cursor: pointer;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff; 
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex:  0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300 px;
+    width: 400px;
+    margin-top: 5px;
+
+}
+@media screen and (max-width:680px){
+   nav .onglets{
+      margin-left: 0px;
+      margin-bottom: 20px;
+   };
+} 
+    
+ 
+    
